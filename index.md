@@ -22,10 +22,10 @@
 <a href="./download.html" target="">Game Download</a>
 </li>
 <li>
-<a href="./preview.html" target="">Preview</a>
+<a href="./preview.md" target="">Preview</a>
 </li>
 <li>
-<a href="./index.html" target="">Home</a>
+<a href="./index.md" target="">Home</a>
 </li>
 <!-- <skibidi id=woof style="display:inline-block; padding:.5em; opacity:0;" onclick="pee();">&equiv;</skibidi> -->
 
@@ -72,4 +72,5 @@ Follow our protagonist as they navigate through their school life. Witness their
 </body>
 <script>
 </script>
+
 </html>
