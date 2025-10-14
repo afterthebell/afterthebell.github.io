@@ -1,0 +1,105 @@
+/* mobile support bc im so #kind towards infotechies :heart emoji*/
+
+@media only screen and (max-width:850px) {
+    body {
+        font-size:18px;
+    }
+    nav > li {
+        display:none;
+    }
+    nav > img {
+        height:2.75em;
+    }
+    nav:hover > li {
+        display:inline-block;
+        float:none;
+        width:100%;
+        border-top: 1px #df667a solid;
+    }
+    nav > hamburger {
+        display:inline-block;
+        float:right;
+        font-size:2em;
+        padding: 0em 0.5em;
+        color:#df667a;
+    }
+    nav:hover > hamburger {
+        display:none;
+    }
+    nav {
+       box-shadow: 0px 2px 4px #8a455a;
+    }
+    article {
+        padding:1em 2em;
+        line-height:1.3;
+    }
+    
+    header {
+        padding-top:5.5em;
+        background-image:url("images/backgroundheas.png");
+        background-size: cover;
+    }
+    header > aside {
+        font-size:15px;
+    }
+    header > img {
+    height:20%; 
+    max-height:200px;
+    }
+
+    blockquote {
+        padding-left:1em;
+    }
+    
+    
+    
+    
+    /*index*/
+    #index {
+        width:90%;
+    }
+    
+    carol {
+        width:100%;
+        height:50vw;
+    }
+    
+    /*about us*/
+    .apple {
+        width:100%;
+        margin:auto;
+        padding:0px;
+    }
+    
+    .apple > div {
+        width:100%;
+        padding:1em;
+        margin:1em 0em;
+        
+    }
+    
+    #left, #right {
+        float:none;
+    }
+    
+    .apple > .apple {
+        width:90%;
+        padding:2em;
+        margin:auto;
+        border:none;
+    }
+    /* preview */
+    iframe {
+        
+        width:100%;
+        height:50vw;
+    }
+    
+    button:hover {
+    background-image:linear-gradient(#ffeaef,#ffeaef,#f1d1d9);
+    transform:scale(1.1);
+    } 
+    #downloadhtml {
+        width:50%;
+    }
+}
