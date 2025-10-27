@@ -34,7 +34,7 @@ setInterval(function() {
 
 // death
 
-var hamburger = 1;
+var hamburger = 0;
 
 function hamburgClick() {
     console.log(hamburger);
@@ -50,3 +50,4 @@ function hamburgClick() {
 
     };
 };
+
