@@ -116,13 +116,13 @@ carol > p {
 
 
 #img1 {
-    background-image:url(https://royaltoiletry.com/wp-content/uploads/2024/06/luxury-toilet-with-elegant-gold-plated-surface4.jpg);
+    background-image:url(images/protagrooms.jpg);
 }
 #img2 {
-    background-image:url(https://royaltoiletry.com/wp-content/uploads/2021/07/luxury-toilet-with-gold-lines-3.jpg);
+    background-image:url(images/protagandoomf.jpg);
 }
 #img3 {
-    background-image:url(https://m.media-amazon.com/images/I/71fbUMtggRL.jpg);
+    background-image:url(images/bullyandupstander.jpg);
 }
 
 #img1, #img2, #img3 {
@@ -226,3 +226,4 @@ answer {
 #mydesc {
     text-align:center;
 }
+
