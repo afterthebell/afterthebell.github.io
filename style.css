@@ -102,7 +102,7 @@ blockquote {
 
 carol {
     width:50%;
-    height:25vw;
+    height:35vw;
     background-color:#ffeeee;
     display:block;
     margin:0.5em auto;
@@ -226,4 +226,5 @@ answer {
 #mydesc {
     text-align:center;
 }
+
 
