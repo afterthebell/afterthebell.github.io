@@ -31,7 +31,6 @@ setInterval(function() {
 
 
 
-
 // death
 
 var hamburger = 0;
@@ -51,3 +50,11 @@ function hamburgClick() {
     };
 };
 
+var secret = ""
+function secretText() {
+    secret = document.getElementById("evilsecret").value;
+    console.log(secret);
+    if(secret === "Teng") {
+        document.getElementById("downloadhelp").innerHTML = "Hello. (˶˃𐃷˂˶)";
+    }
+}

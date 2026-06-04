@@ -23,7 +23,8 @@ nav {
     background-color:#fff;
     background-image:linear-gradient(#fff,#fff,#fee);
     width:100%;
-    position:fixed;
+    position:sticky;
+    top:0;
     border-bottom: 2px #df667a solid;
 }
 nav > navli > li {
@@ -53,8 +54,8 @@ nav > navli > li:active, nav > navli > li > a:active {
     color:white;
 }
 nav > img {
-    float:left;
-    height:2.19em;
+    float:none;
+    height:2em;
     margin:0px;
 }
 hamburger {
@@ -62,8 +63,7 @@ hamburger {
 }
 /* burgw */
 header {
-    padding:2.5em;
-    padding-top:5em;
+    padding:5em;
     background-color:#ffdddf;
     background-image:url("images/skibidibanner.png");
     background-size: cover;
@@ -87,10 +87,10 @@ article {
     font-size:16px;
     color:#ac3347;
 }
-
-.light {
+article:nth-child(even) {
     background-color:#f9f1f4;
 }
+
 blockquote {
     font-style:italic;
     padding-left:2.5em;
@@ -131,8 +131,16 @@ carol > p {
     background-repeat: no-repeat;
 }
 
-
-
+input {
+    background-color:inherit;
+    display:block;
+    margin:auto;
+    border:none;
+}
+input:focus {
+    outline:#eee2e9 2px solid;
+    
+}
 
 
 
